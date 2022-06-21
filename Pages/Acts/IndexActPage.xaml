@@ -17,7 +17,7 @@
         <Grid>
             <StackPanel Orientation="Horizontal">
                 <Button Click="AddClick" Content="Создать" />
-                
+                <Button Click="WordClick" Content="Печать" />
             </StackPanel>
         </Grid>
         <Grid Grid.Row="1">
