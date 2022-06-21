@@ -52,7 +52,7 @@ namespace WpfFarm.Pages.Acts
             sb.AppendLine("");
             foreach (var item in Acts)
             {
-                string text = $"Дата:{item.Date}; {item.Животные.Название}, Корм: {item.Корм.Имя} Х {item.Количество} ШТ";
+                string text = $"Дата:{item.Date}; {item.Животные.Название}, Корм: {item.Корм.Имя} Х {item.Количество} ШТ; Сумма {item.Количество*item.Корм.Цена} руб";
                 sb.AppendLine(text);
             }
             ReplaceWordStub("(text)", sb.ToString(), wordDocument);
