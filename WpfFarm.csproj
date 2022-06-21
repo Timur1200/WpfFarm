@@ -71,6 +71,7 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\EFContext.cs" />
+    <Compile Include="Model\АктСписания.cs" />
     <Compile Include="Model\АктСписанияКормов.cs" />
     <Compile Include="Pages\Acts\AddEditActPage.xaml.cs">
       <DependentUpon>AddEditActPage.xaml</DependentUpon>
